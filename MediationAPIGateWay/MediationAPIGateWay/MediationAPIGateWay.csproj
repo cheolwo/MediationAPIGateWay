@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>cb5cf03f-74b2-46e1-bd57-235817f3855a</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.13.12" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controller\매칭\텔레그램\" />
+    <Folder Include="Controller\생산\셔틀\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Handlr\생산\" />
+    <Folder Include="Handlr\농축수\HS\" />
+    <Folder Include="Handlr\농축수\레시피\" />
+    <Folder Include="Handlr\농축수\유통가격\" />
+    <Folder Include="Handlr\매칭자\남자\" />
+    <Folder Include="Handlr\배송자\Command\" />
+    <Folder Include="Handlr\배송자\Query\" />
+    <Folder Include="Handlr\생산\생산자\Command\" />
+    <Folder Include="Handlr\생산\생산자\Query\" />
+    <Folder Include="Handlr\중재자\Command\" />
+    <Folder Include="Handlr\중재자\Query\" />
+    <Folder Include="QueryControllers\주문자\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CommonHouse\국토교통부 공동주택 공공데이터\국토교통부 공공데이터Common\공동주택Infra.csproj" />
+    <ProjectReference Include="..\..\..\CommonHouse\국토교통부 공동주택 공공데이터\전통시장Infra\전통시장Infra.csproj" />
+    <ProjectReference Include="..\..\..\CommonManagement\NaverCommon\네이버Infra.csproj" />
+    <ProjectReference Include="..\..\..\DeliverManagement\배송Common\배송Infra\배송Infra\배송Infra.csproj" />
+    <ProjectReference Include="..\..\..\KakaoInfa\kakaoInfa\kakaoInfa\카카오Infa.csproj" />
+    <ProjectReference Include="..\..\..\Korea-Agriculture--Forestry-and-Fisheries-Public-Data\농림축산식품 공공데이터\농림축산식품Infra.csproj" />
+    <ProjectReference Include="..\..\..\OrdererManagement\OrderCommon\仁주문자\仁주문자.csproj" />
+    <ProjectReference Include="..\..\..\TossInfra\TossInfa\토스Infa.csproj" />
+    <ProjectReference Include="..\..\..\WarehouseCommon\WarehouseCommon\창고Infra.csproj" />
+    <ProjectReference Include="..\仁근로자\仁근로자.csproj" />
+    <ProjectReference Include="..\仁매칭자\仁매칭자.csproj" />
+    <ProjectReference Include="..\仁인력관리업체\仁농협.csproj" />
+    <ProjectReference Include="..\仁중재자\仁중재자.csproj" />
+    <ProjectReference Include="..\생산Infra\생산Infra.csproj" />
+    <ProjectReference Include="..\주문Infra\주문Infra.csproj" />
+    <ProjectReference Include="..\판매Infra\판매Infra.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\仁Common\仁Common.csproj" />
+    <ProjectReference Include="..\매칭Infra\매칭Infra.csproj" />
+    <ProjectReference Include="..\생산Infra\생산Infra.csproj" />
+    <ProjectReference Include="..\셔틀Infra\셔틀Infra.csproj" />
+  </ItemGroup>
+
+</Project>

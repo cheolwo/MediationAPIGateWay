@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\매칭Infra\매칭Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Command\여자\" />
+    <Folder Include="Command\남자\" />
+  </ItemGroup>
+
+</Project>

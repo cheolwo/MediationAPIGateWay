@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\仁Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\仁Common.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\仁Common.AssemblyInfo.cs
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\仁Common.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\仁Common.sourcelink.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\仁Common.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\bin\Debug\net8.0\仁Common.deps.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\bin\Debug\net8.0\仁Common.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\bin\Debug\net8.0\仁Common.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\仁Common.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\refint\仁Common.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\仁Common.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\仁Common\obj\Debug\net8.0\ref\仁Common.dll

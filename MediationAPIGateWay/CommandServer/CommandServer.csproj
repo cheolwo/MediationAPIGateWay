@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6c1b22f2-aa41-4762-9d48-437d1d9c2c83</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.13.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\주문\" />
+    <Folder Include="Controllers\생산\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\仁Common\仁Common.csproj" />
+    <ProjectReference Include="..\仁근로자\仁근로자.csproj" />
+    <ProjectReference Include="..\仁인력관리업체\仁농협.csproj" />
+  </ItemGroup>
+
+</Project>
