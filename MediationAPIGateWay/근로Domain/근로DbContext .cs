@@ -39,5 +39,4 @@ namespace 근로Infra
             });
         }
     }
-
 }

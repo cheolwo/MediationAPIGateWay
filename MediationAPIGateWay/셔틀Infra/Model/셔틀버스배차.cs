@@ -19,6 +19,7 @@
         public int Id { get; set; }  // 배차 ID (Primary Key)
         public int 지하철역Id { get; set; }  // 선택한 지하철역 ID (외래키)
         public int 셔틀버스Id { get; set; }  // 셔틀버스 ID (외래키)
+        public bool 이성매칭 { get; set; }
         public DateTime 출발시간 { get; set; }  // 셔틀버스 출발 시간
         public DateTime 배차일자 { get; set; }  // 셔틀버스 배치 일자
 

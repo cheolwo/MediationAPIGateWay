@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("仁중재자")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+508749b969f800c5f056a4bcf3b6506f56e2b7f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3717f01afefad2fd0db741ec22dc36473b9ecad")]
 [assembly: System.Reflection.AssemblyProductAttribute("仁중재자")]
 [assembly: System.Reflection.AssemblyTitleAttribute("仁중재자")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

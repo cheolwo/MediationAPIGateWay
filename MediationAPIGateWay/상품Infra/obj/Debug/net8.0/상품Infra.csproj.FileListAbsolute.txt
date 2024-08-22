@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\bin\Debug\net8.0\상품Infra.deps.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\bin\Debug\net8.0\상품Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\bin\Debug\net8.0\상품Infra.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\상품Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\상품Infra.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\상품Infra.AssemblyInfo.cs
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\상품Infra.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\상품Infra.sourcelink.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\상품Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\refint\상품Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\상품Infra.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\상품Infra\obj\Debug\net8.0\ref\상품Infra.dll

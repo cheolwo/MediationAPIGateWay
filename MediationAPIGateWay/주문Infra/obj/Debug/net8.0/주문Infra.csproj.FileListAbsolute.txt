@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\주문Infra\obj\Debug\net8.0\주문Infra.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\주문Infra\obj\Debug\net8.0\주문Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\주문Infra\obj\Debug\net8.0\주문Infra.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\주문Infra\obj\Debug\net8.0\주문Infra.AssemblyInfo.cs
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\주문Infra\obj\Debug\net8.0\주문Infra.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\주문Infra\obj\Debug\net8.0\주문Infra.sourcelink.json

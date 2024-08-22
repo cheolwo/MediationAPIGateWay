@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\bin\Debug\net8.0\셔틀Infra.deps.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\bin\Debug\net8.0\셔틀Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\bin\Debug\net8.0\셔틀Infra.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\셔틀Infra.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\셔틀Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\셔틀Infra.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\셔틀Infra.AssemblyInfo.cs
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\셔틀Infra.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\셔틀Infra.sourcelink.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\셔틀Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\refint\셔틀Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\셔틀Infra.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\셔틀Infra\obj\Debug\net8.0\ref\셔틀Infra.dll

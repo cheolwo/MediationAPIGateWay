@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using 仁매칭자.Dto;
+using 매칭Infra;
 
 namespace 仁매칭자.Command
 {
@@ -12,17 +12,7 @@ namespace 仁매칭자.Command
         public int 최대나이 { get; set; }       // 선호하는 최대 나이
         public string 연상연하선호 { get; set; } // 연상/연하 선호
         public string 기타선호사항 { get; set; } // 기타 선호사항
-
-        public Create매칭신청Command(매칭신청Dto dto)
-        {
-            사용자Id = dto.사용자Id;
-            성별 = dto.성별;
-            나이 = dto.나이;
-            최소나이 = dto.최소나이;
-            최대나이 = dto.최대나이;
-            연상연하선호 = dto.연상연하선호;
-            기타선호사항 = dto.기타선호사항;
-        }
+        public 스킨십단계 형식상최소허용스킨십단계 { get; set; } // 사용자가 선택한 최소 허용 스킨십 단계
+        public 스킨십단계 형식상최대허용스킨십단계 { get; set; } // 사용자가 선택한 최대 허용 스킨십 단계
     }
-
 }

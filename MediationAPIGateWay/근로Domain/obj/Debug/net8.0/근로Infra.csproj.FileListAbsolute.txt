@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\bin\Debug\net8.0\근로Infra.deps.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\bin\Debug\net8.0\근로Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\bin\Debug\net8.0\근로Infra.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\근로Infra.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\근로Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\근로Infra.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\근로Infra.AssemblyInfo.cs
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\근로Infra.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\근로Infra.sourcelink.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\근로Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\refint\근로Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\근로Infra.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\근로Domain\obj\Debug\net8.0\ref\근로Infra.dll

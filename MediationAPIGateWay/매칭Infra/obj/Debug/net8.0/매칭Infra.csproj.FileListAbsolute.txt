@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\bin\Debug\net8.0\매칭Infra.deps.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\bin\Debug\net8.0\매칭Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\bin\Debug\net8.0\매칭Infra.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\매칭Infra.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\매칭Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\매칭Infra.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\매칭Infra.AssemblyInfo.cs
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\매칭Infra.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\매칭Infra.sourcelink.json
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\매칭Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\refint\매칭Infra.dll
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\매칭Infra.pdb
+C:\Users\user\Desktop\MediationAPIGateWay\MediationAPIGateWay\매칭Infra\obj\Debug\net8.0\ref\매칭Infra.dll
