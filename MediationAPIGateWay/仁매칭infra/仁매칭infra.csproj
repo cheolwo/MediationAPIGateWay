@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.28.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.28.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DeliverManagement\배송Common\배송Infra\배송Infra\배송Infra.csproj" />
+    <ProjectReference Include="..\근로Domain\근로Infra.csproj" />
+    <ProjectReference Include="..\생산Infra\생산Infra.csproj" />
+    <ProjectReference Include="..\주문Infra\주문Infra.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8rsX41uvMuRNLrOEFq0vWIbl8u1HsDTVgGX+oBkYTOpt5JH5k9Yy2apATsSvJRbVrkojw5TR4MwZQ9NgbpcVeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\仁도서관련자\\仁도서관련자.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

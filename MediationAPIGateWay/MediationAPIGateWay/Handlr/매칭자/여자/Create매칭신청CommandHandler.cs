@@ -1,4 +1,4 @@
-﻿using MediationAPIGateWay.Service.이성매칭;
+﻿using MediationAPIGateWay.Service.매칭;
 using MediatR;
 using 매칭Infra;
 using 仁매칭자.Command;
@@ -7,10 +7,10 @@ namespace MediationAPIGateWay.Handlr.매칭자.여자
 {
     public class Create매칭신청CommandHandler : IRequestHandler<Create매칭신청Command, Unit>
     {
-        private readonly 매칭DbContext _context;
+        private readonly 이성DbContext _context;
         private readonly IMatchingService _matchingService;  // 변경된 인터페이스 사용
 
-        public Create매칭신청CommandHandler(매칭DbContext context, IMatchingService matchingService)
+        public Create매칭신청CommandHandler(이성DbContext context, IMatchingService matchingService)
         {
             _context = context;
             _matchingService = matchingService;

@@ -6,9 +6,9 @@ namespace MediationAPIGateWay.Handlr.매칭자
 {
     public class Create매칭신청CommandHandler : IRequestHandler<Create매칭신청Command, Unit>
     {
-        private readonly 매칭DbContext _context;
+        private readonly 이성DbContext _context;
 
-        public Create매칭신청CommandHandler(매칭DbContext context)
+        public Create매칭신청CommandHandler(이성DbContext context)
         {
             _context = context;
         }

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using 국토교통부_공공데이터Common.Model;
-using 주문Common.Model;
+using 주문Infra.Model;
 
 namespace 주문Infra
 {

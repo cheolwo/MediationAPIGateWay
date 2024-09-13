@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\CommonHouse\국토교통부 공동주택 공공데이터\국토교통부 공공데이터Common\공동주택Infra.csproj" />
+    <ProjectReference Include="..\..\..\CommonManagement\Common\Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>

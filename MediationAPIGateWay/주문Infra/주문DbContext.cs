@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using 주문Common.Model;
+using 주문Infra.Model;
 
 namespace 주문Infra
 {
@@ -7,39 +7,56 @@ namespace 주문Infra
     {
         public 주문DbContext(DbContextOptions<주문DbContext> options) : base(options) { }
 
-        public DbSet<주문자집단> 주문자집단들 { get; set; }
-        public DbSet<공동주문상품> 공동주문상품들 { get; set; }
-        public DbSet<개별주문상품> 개별주문상품들 { get; set; }  // 개별주문상품 테이블 추가
-        public DbSet<주문자> 주문자들 { get; set; }
-        public DbSet<주문상품> 주문상품들 { get; set; }
-        public DbSet<생산자> 생산자들 { get; set; }
-        public DbSet<주문상태> 주문상태들 { get; set; }
+        public DbSet<주문자집단> 주문자집단목록 { get; set; }
+        public DbSet<주문상품> 주문상품목록 { get; set; }  // 개별주문상품 테이블
+        public DbSet<주문자> 주문자목록 { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // 주문자집단과 공동주문상품 간의 관계 설정
+            // 주문자집단 - 주문자 관계 설정 (1:N)
             modelBuilder.Entity<주문자집단>()
-                .HasMany(j => j.공동주문상품들)
-                .WithOne(p => p.주문자집단)
-                .HasForeignKey(p => p.집단코드);
+                .HasMany(jg => jg.주문자들)
+                .WithMany(j => j.주문자집단목록)
+                .UsingEntity<Dictionary<string, object>>(
+                    "주문자집단주문자",
+                    j => j.HasOne<주문자>().WithMany().HasForeignKey("주문자Id"),
+                    jg => jg.HasOne<주문자집단>().WithMany().HasForeignKey("주문자집단Id")
+                );
 
-            // 주문자와 주문상품 간의 관계 설정
+            // 주문자 - 주문상품 관계 설정 (1:N)
             modelBuilder.Entity<주문자>()
-                .HasMany(j => j.주문상품들)
-                .WithOne(p => p.주문자)
-                .HasForeignKey(p => p.주문자Id);
+                .HasMany(j => j.주문상품목록)
+                .WithOne(o => o.주문자)
+                .HasForeignKey(o => o.주문자Id)
+                .OnDelete(DeleteBehavior.Cascade);
 
-            // 생산자와 공동주문상품 간의 관계 설정
-            modelBuilder.Entity<생산자>()
-                .HasMany(s => s.공동주문상품들)
-                .WithOne(p => p.생산자)
-                .HasForeignKey(p => p.생산자Id);
+            // 주문자집단 - 주문상품 관계 설정 (1:N)
+            modelBuilder.Entity<주문자집단>()
+                .HasMany(jg => jg.주문상품목록)
+                .WithOne(o => o.주문자집단)
+                .HasForeignKey(o => o.주문자집단Id)
+                .OnDelete(DeleteBehavior.SetNull); // 주문자집단 삭제 시 주문상품에서 주문자집단Id를 null로 설정
 
-            // 생산자와 개별주문상품 간의 관계 설정
-            modelBuilder.Entity<생산자>()
-                .HasMany(s => s.개별주문상품들)
-                .WithOne(p => p.생산자)
-                .HasForeignKey(p => p.생산자Id);
+            // 기타 속성 및 제약 조건 설정
+            modelBuilder.Entity<주문자>()
+                .Property(j => j.이름)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            modelBuilder.Entity<주문상품>()
+                .Property(o => o.가격)
+                .HasColumnType("decimal(18,2)");
+
+            // 기본 값 설정
+            modelBuilder.Entity<주문상품>()
+                .Property(o => o.할인금액)
+                .HasDefaultValue(0m);
+
+            modelBuilder.Entity<주문상품>()
+                .Property(o => o.최종결제금액)
+                .HasComputedColumnSql("[가격] - [할인금액]"); // SQL로 계산된 열로 설정
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

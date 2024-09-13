@@ -1,10 +1,13 @@
 ﻿
+using Common.Model;
+
 namespace 판매Infra.Model
 {
     // 판매자 엔티티
-    public class 판매자
+    public class 판매자 : Entity
     {
-        public int Id { get; set; }  // 판매자 ID
+        public int 사용자Id { get; set; } 
+        public int 생산자Id { get; set; }
         public string 이름 { get; set; }  // 판매자 이름
         public string 연락처 { get; set; }  // 판매자 연락처
         public string 주소 { get; set; }  // 판매자 주소
@@ -12,9 +15,8 @@ namespace 판매Infra.Model
     }
 
     // 판매상품 엔티티
-    public class 판매상품
+    public class 판매상품 : Entity
     {
-        public int Id { get; set; }  // 판매상품 ID
         public string 이름 { get; set; }  // 상품 이름
         public string 상품코드 { get; set; }  // 상품 코드
         public decimal 가격 { get; set; }  // 상품 가격
@@ -28,9 +30,8 @@ namespace 판매Infra.Model
     }
 
     // 상품상세정보 엔티티
-    public class 상품상세정보
+    public class 상품상세정보 : Entity
     {
-        public int Id { get; set; }  // 상품상세정보 ID
         public string 설명 { get; set; }  // 상품 설명
         public string 원산지 { get; set; }  // 원산지 정보
         public bool 관계매칭지원가능 { get; set; }  // 관계매칭 지원 여부
@@ -39,9 +40,8 @@ namespace 판매Infra.Model
     }
 
     // 후기 엔티티
-    public class 후기
+    public class 후기 : Entity
     {
-        public int Id { get; set; }  // 후기 ID
         public string 작성자Id { get; set; }  // 작성자 ID
         public string 내용 { get; set; }  // 후기 내용
         public int 평점 { get; set; }  // 평점

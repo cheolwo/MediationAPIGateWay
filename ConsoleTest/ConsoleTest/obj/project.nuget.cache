@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TjR64pIVgT0tO7w+Tw8Le6DhzEmVbYASO4nf7W2hTV91d566Kd1uUKzKeoQJ8+fDV/Hcj7IYD95IaWs22R/kZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\ConsoleTest\\ConsoleTest\\ConsoleTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

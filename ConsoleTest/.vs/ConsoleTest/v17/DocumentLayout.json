@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\ConsoleTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71979CD5-A51E-4D89-A145-D0914A71DEBC}|ConsoleTest\\ConsoleTest.csproj|c:\\users\\user\\desktop\\mediationapigateway\\consoletest\\consoletest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71979CD5-A51E-4D89-A145-D0914A71DEBC}|ConsoleTest\\ConsoleTest.csproj|solutionrelative:consoletest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 133,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\ConsoleTest\\ConsoleTest\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleTest\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\ConsoleTest\\ConsoleTest\\Program.cs",
+              "RelativeToolTip": "ConsoleTest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T00:47:34.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

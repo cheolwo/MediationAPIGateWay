@@ -8,11 +8,12 @@ namespace 생산Infra
         public 생산DbContext(DbContextOptions<생산DbContext> options) : base(options) { }
 
         // DbSet 정의: 각 엔티티를 관리하는 테이블
-        public DbSet<농협> 농협들 { get; set; }  // 농협 테이블
-        public DbSet<생산자> 생산자들 { get; set; }  // 생산자 테이블
-        public DbSet<근무지> 근무지들 { get; set; }  // 근무지 테이블
-        public DbSet<후기> 후기들 { get; set; }  // 후기 테이블
-        public DbSet<근로신청> 근로신청들 { get; set; }  // 근로신청 테이블
+        public DbSet<농협> 농협목록 { get; set; }  // 농협 테이블
+        public DbSet<생산자> 생산자목록 { get; set; }  // 생산자 테이블
+        public DbSet<생산상품> 생산상품목록 { get; set; }  // 생산상품 테이블
+        public DbSet<근무지> 근무지목록 { get; set; }  // 근무지 테이블
+        public DbSet<후기> 후기목록 { get; set; }  // 후기 테이블
+        public DbSet<생산자인력매칭신청> 생산자인력매칭신청목록 { get; set; }  // 생산자인력매칭신청 테이블
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,6 +31,13 @@ namespace 생산Infra
                 .HasForeignKey(p => p.농협Id)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            // 생산자와 생산상품 간의 1:N 관계 설정
+            modelBuilder.Entity<생산자>()
+                .HasMany(p => p.생산상품목록)
+                .WithOne(p => p.생산자)
+                .HasForeignKey(p => p.생산자Id)
+                .OnDelete(DeleteBehavior.Cascade);
+
             // 생산자와 근무지 간의 1:N 관계 설정
             modelBuilder.Entity<생산자>()
                 .HasMany(p => p.근무지목록)
@@ -44,18 +52,25 @@ namespace 생산Infra
                 .HasForeignKey(f => f.생산자Id)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // 생산자와 생산상품 간의 1:N 관계 설정
-            modelBuilder.Entity<생산자>()
-                .HasMany(p => p.생산상품목록)
-                .WithOne(p => p.생산자)
-                .HasForeignKey(p => p.생산자Id)
+            // 후기와 농협 간의 N:1 관계 설정
+            modelBuilder.Entity<후기>()
+                .HasOne(f => f.농협)
+                .WithMany(n => n.후기목록)
+                .HasForeignKey(f => f.농협Id)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // 근무지와 근로신청 간의 1:N 관계 설정
+            // 근무지와 생산자인력매칭신청 간의 1:N 관계 설정
             modelBuilder.Entity<근무지>()
-                .HasMany(w => w.근로신청들)
+                .HasMany(w => w.생산자인력매칭신청목록)
                 .WithOne(ws => ws.근무지)
                 .HasForeignKey(ws => ws.근무지Id)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // 생산자와 생산자인력매칭신청 간의 1:N 관계 설정
+            modelBuilder.Entity<생산자>()
+                .HasMany(p => p.생산자인력매칭신청목록)
+                .WithOne(sa => sa.생산자)
+                .HasForeignKey(sa => sa.생산자Id)
                 .OnDelete(DeleteBehavior.Cascade);
 
             // 기타 설정

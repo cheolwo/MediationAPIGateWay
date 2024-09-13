@@ -11,6 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\仁Common\仁Common.csproj" />
+    <ProjectReference Include="..\仁매칭infra\仁매칭infra.csproj" />
+    <ProjectReference Include="..\근로Domain\근로Infra.csproj" />
     <ProjectReference Include="..\생산Infra\생산Infra.csproj" />
   </ItemGroup>
 

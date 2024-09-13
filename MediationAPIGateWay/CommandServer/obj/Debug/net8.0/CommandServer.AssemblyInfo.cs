@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommandServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3717f01afefad2fd0db741ec22dc36473b9ecad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d773d225e2458f0fc5738cec8c75ab22db21fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommandServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommandServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

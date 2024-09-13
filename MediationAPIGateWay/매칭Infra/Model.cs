@@ -1,7 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json;
+﻿using Common.Model;
 
-namespace 매칭Infra
+namespace 이성Infra
 {
     public enum 스킨십단계
     {
@@ -12,26 +11,23 @@ namespace 매칭Infra
         가슴터치,
         생식기접촉
     }
-    public class 투표
+    public class 투표 : Entity
     {
-        public int 투표Id { get; set; }
         public int 셔틀버스배차Id { get; set; }
         public string 투표주제 { get; set; }
         public List<투표안건> 투표안건Json { get; set; }  // JSON 형태로 저장되는 투표안건
         public DateTime 투표시작시간 { get; set; }
         public DateTime 투표종료시간 { get; set; }
     }
-    public class 투표안건
+    public class 투표안건 : Entity
     {
-        public int 번호 { get; set; }
         public string 내용 { get; set; }
         public int 찬성투표수 { get; set; }
         public int 반대투표수 { get; set; }
     }
 
-    public class 매칭
+    public class 이성매칭 : Entity
     {
-        public int Id { get; set; }  // 매칭 ID (Primary Key)
         public string 사용자Id { get; set; }  // 사용자 ID (외래키로 매칭되는 사용자)
         public int 근무지Id { get; set; }  // 근무지 ID (외래키로 매칭되는 근무지)
         public DateTime 신청일자 { get; set; }  // 매칭 신청 일자
@@ -62,29 +58,5 @@ namespace 매칭Infra
         public DateTime 배차일자 { get; set; }  // 배차 일자
         public string 버스번호 { get; set; }  // 버스 번호
         public List<스킨십선호정보> 스킨십선호정보들 { get; set; } // 스킨십 선호 정보 리스트 (Navigation Property)
-    }
-
-    public class 매칭DbContext : DbContext
-    {
-        public 매칭DbContext(DbContextOptions<매칭DbContext> options) : base(options) { }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<스킨십선호정보>()
-                .HasOne(s => s.배차)
-                .WithMany(b => b.스킨십선호정보들)
-                .HasForeignKey(s => s.배차Id);
-
-            modelBuilder.Entity<투표>(entity =>
-            {
-                entity.Property(e => e.투표안건Json).HasConversion(
-                    v => JsonConvert.SerializeObject(v, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore }),
-                    v => JsonConvert.DeserializeObject<List<투표안건>>(v, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore })
-                );
-            });
-        }
-        public DbSet<투표> 투표들 { get; set; }
-        public DbSet<스킨십선호정보> 스킨십선호정보들 { get; set; }
-        public DbSet<배차> 배차들 { get; set; }
-        public DbSet<매칭> 매칭들 { get; set; }  // 매칭 테이블
     }
 }

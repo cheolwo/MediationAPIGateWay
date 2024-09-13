@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using 仁주문자.For주문자.Command;
+using 仁주문자.For주문자.Query;
 
 namespace MediationAPIGateWay.Controller.소비.주문자
 {
@@ -28,7 +29,7 @@ namespace MediationAPIGateWay.Controller.소비.주문자
             }
         }
         [HttpPost("생산자목록조회")]
-        public async Task<IActionResult> Get생산자목록([FromBody] Get생산자목록Command command)
+        public async Task<IActionResult> Get생산자목록([FromBody] Get생산자목록Query command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);

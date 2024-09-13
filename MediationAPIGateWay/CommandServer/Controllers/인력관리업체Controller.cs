@@ -8,9 +8,9 @@ namespace CommandServer.Controllers
     [Route("api/[controller]")]
     public class 인력관리업체Controller : ControllerBase
     {
-        private readonly ICommandQueue _commandQueue;
+        private readonly CommandQueuePublisher _commandQueue;
 
-        public 인력관리업체Controller(ICommandQueue commandQueue)
+        public 인력관리업체Controller(CommandQueuePublisher commandQueue)
         {
             _commandQueue = commandQueue;
         }

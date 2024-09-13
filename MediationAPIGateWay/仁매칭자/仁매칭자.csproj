@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\매칭Infra\매칭Infra.csproj" />
+    <ProjectReference Include="..\매칭Infra\이성Infra.csproj" />
   </ItemGroup>
 
   <ItemGroup>

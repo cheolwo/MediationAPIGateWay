@@ -17,10 +17,10 @@ namespace 仁Common.Command
             this.작성자Id = 작성자Id;
             this.내용 = 내용;
             this.평점 = 평점;
-            this.작성일 = DateTime.UtcNow;
+            작성일 = DateTime.UtcNow;
 
             // 별점이 3.5 이하일 경우 비공개 처리
-            this.비공개여부 = 평점 <= 3.5;
+            비공개여부 = 평점 <= 3.5;
         }
     }
 }
