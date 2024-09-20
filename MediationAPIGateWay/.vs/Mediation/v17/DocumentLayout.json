@@ -3,56 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\mediationapigateway\\service\\\uB3C4\uC11C\\\uB3C4\uC11C\uC810\uC218service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|solutionrelative:mediationapigateway\\service\\\uB3C4\uC11C\\\uB3C4\uC11C\uC810\uC218service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C58D6432-00F5-4F48-8133-9A508358E1A3}|\uC154\uD2C0Infra\\\uC154\uD2C0Infra.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\uC154\uD2C0infra\\model\\\uC154\uD2C0\uBC84\uC2A4\uBC30\uCC28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58D6432-00F5-4F48-8133-9A508358E1A3}|\uC154\uD2C0Infra\\\uC154\uD2C0Infra.csproj|solutionrelative:\uC154\uD2C0infra\\model\\\uC154\uD2C0\uBC84\uC2A4\uBC30\uCC28.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A5EF4F-62CC-4551-8B69-CCCE054D935E}|\uB3C4\uC11CInfra\\\uB3C4\uC11CInfra.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\uB3C4\uC11Cinfra\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A5EF4F-62CC-4551-8B69-CCCE054D935E}|\uB3C4\uC11CInfra\\\uB3C4\uC11CInfra.csproj|solutionrelative:\uB3C4\uC11Cinfra\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C58D6432-00F5-4F48-8133-9A508358E1A3}|\uC154\uD2C0Infra\\\uC154\uD2C0Infra.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\uC154\uD2C0infra\\\uC154\uD2C0dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58D6432-00F5-4F48-8133-9A508358E1A3}|\uC154\uD2C0Infra\\\uC154\uD2C0Infra.csproj|solutionrelative:\uC154\uD2C0infra\\\uC154\uD2C0dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\mediationapigateway\\handlr\\\uC0AC\uC11C\\query\\search\uB3C4\uC11Cqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|solutionrelative:mediationapigateway\\handlr\\\uC0AC\uC11C\\query\\search\uB3C4\uC11Cqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EF367-3F5D-4D24-B139-C4489B00C1CF}|\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\query\\search\uB3C4\uC11Cquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EF367-3F5D-4D24-B139-C4489B00C1CF}|\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj|solutionrelative:\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\query\\search\uB3C4\uC11Cquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\mediationapigateway\\handlr\\\uC0AC\uC11C\\command\\create\uB3C4\uC11Ccommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|solutionrelative:mediationapigateway\\handlr\\\uC0AC\uC11C\\command\\create\uB3C4\uC11Ccommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EF367-3F5D-4D24-B139-C4489B00C1CF}|\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\command\\create\uB3C4\uC11Ccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EF367-3F5D-4D24-B139-C4489B00C1CF}|\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj|solutionrelative:\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\command\\create\uB3C4\uC11Ccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EF367-3F5D-4D24-B139-C4489B00C1CF}|\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F60EF367-3F5D-4D24-B139-C4489B00C1CF}|\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj|solutionrelative:\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\mediationapigateway\\handlr\\\uC0DD\uC0B0\\\uC0DD\uC0B0\uC790\\command\\create\uC778\uB825\uB9E4\uCE6D\uC2E0\uCCADcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|solutionrelative:mediationapigateway\\handlr\\\uC0DD\uC0B0\\\uC0DD\uC0B0\uC790\\command\\create\uC778\uB825\uB9E4\uCE6D\uC2E0\uCCADcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46AA222B-F34E-4552-A6F9-7B679D6BFF31}|\uD310\uB9E4Infra\\\uD310\uB9E4Infra.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\uD310\uB9E4infra\\\uD310\uB9E4dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46AA222B-F34E-4552-A6F9-7B679D6BFF31}|\uD310\uB9E4Infra\\\uD310\uB9E4Infra.csproj|solutionrelative:\uD310\uB9E4infra\\\uD310\uB9E4dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46AA222B-F34E-4552-A6F9-7B679D6BFF31}|\uD310\uB9E4Infra\\\uD310\uB9E4Infra.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\uD310\uB9E4infra\\\uD310\uB9E4\uC790.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46AA222B-F34E-4552-A6F9-7B679D6BFF31}|\uD310\uB9E4Infra\\\uD310\uB9E4Infra.csproj|solutionrelative:\uD310\uB9E4infra\\\uD310\uB9E4\uC790.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28D6CBFA-FA42-4EE9-989E-E25F264256A9}|\u4EC1\uC0DD\uC0B0\uC790\\\u4EC1\uC0DD\uC0B0\uC790.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\u4EC1\uC0DD\uC0B0\uC790\\\u4EC1\uC0DD\uC0B0\uC790.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{28D6CBFA-FA42-4EE9-989E-E25F264256A9}|\u4EC1\uC0DD\uC0B0\uC790\\\u4EC1\uC0DD\uC0B0\uC790.csproj|solutionrelative:\u4EC1\uC0DD\uC0B0\uC790\\\u4EC1\uC0DD\uC0B0\uC790.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\mediationapigateway\\mediationapigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2FD60C82-81D6-430C-91C9-6D2B7496BC7D}|MediationAPIGateWay\\MediationAPIGateWay.csproj|solutionrelative:mediationapigateway\\mediationapigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBD9FDC6-22E4-4553-BF39-4F950156D23C}|\u4EC1Infra\\\u4EC1Infra.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\u4EC1infra\\\u4EC1infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{EBD9FDC6-22E4-4553-BF39-4F950156D23C}|\u4EC1Infra\\\u4EC1Infra.csproj|solutionrelative:\u4EC1infra\\\u4EC1infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{C58D6432-00F5-4F48-8133-9A508358E1A3}|\uC154\uD2C0Infra\\\uC154\uD2C0Infra.csproj|c:\\users\\user\\desktop\\mediationapigateway\\mediationapigateway\\\uC154\uD2C0infra\\\uC154\uD2C0repositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58D6432-00F5-4F48-8133-9A508358E1A3}|\uC154\uD2C0Infra\\\uC154\uD2C0Infra.csproj|solutionrelative:\uC154\uD2C0infra\\\uC154\uD2C0repositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 144,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "\uB3C4\uC11C\uC810\uC218Service.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\Service\\\uB3C4\uC11C\\\uB3C4\uC11C\uC810\uC218Service.cs",
-              "RelativeDocumentMoniker": "MediationAPIGateWay\\Service\\\uB3C4\uC11C\\\uB3C4\uC11C\uC810\uC218Service.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\Service\\\uB3C4\uC11C\\\uB3C4\uC11C\uC810\uC218Service.cs",
-              "RelativeToolTip": "MediationAPIGateWay\\Service\\\uB3C4\uC11C\\\uB3C4\uC11C\uC810\uC218Service.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:55:35.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Search\uB3C4\uC11CQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\Handlr\\\uC0AC\uC11C\\Query\\Search\uB3C4\uC11CQueryHandler.cs",
-              "RelativeDocumentMoniker": "MediationAPIGateWay\\Handlr\\\uC0AC\uC11C\\Query\\Search\uB3C4\uC11CQueryHandler.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\Handlr\\\uC0AC\uC11C\\Query\\Search\uB3C4\uC11CQueryHandler.cs",
-              "RelativeToolTip": "MediationAPIGateWay\\Handlr\\\uC0AC\uC11C\\Query\\Search\uB3C4\uC11CQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
+              "Title": "\uC154\uD2C0RepositoryService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uC154\uD2C0Infra\\\uC154\uD2C0RepositoryService.cs",
+              "RelativeDocumentMoniker": "\uC154\uD2C0Infra\\\uC154\uD2C0RepositoryService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uC154\uD2C0Infra\\\uC154\uD2C0RepositoryService.cs",
+              "RelativeToolTip": "\uC154\uD2C0Infra\\\uC154\uD2C0RepositoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:55:13.178Z",
+              "WhenOpened": "2024-09-20T05:19:49.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create\uB3C4\uC11CCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\Handlr\\\uC0AC\uC11C\\Command\\Create\uB3C4\uC11CCommandHandler.cs",
-              "RelativeDocumentMoniker": "MediationAPIGateWay\\Handlr\\\uC0AC\uC11C\\Command\\Create\uB3C4\uC11CCommandHandler.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\Handlr\\\uC0AC\uC11C\\Command\\Create\uB3C4\uC11CCommandHandler.cs",
-              "RelativeToolTip": "MediationAPIGateWay\\Handlr\\\uC0AC\uC11C\\Command\\Create\uB3C4\uC11CCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "DocumentIndex": 0,
+              "Title": "\uC154\uD2C0\uBC84\uC2A4\uBC30\uCC28.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uC154\uD2C0Infra\\Model\\\uC154\uD2C0\uBC84\uC2A4\uBC30\uCC28.cs",
+              "RelativeDocumentMoniker": "\uC154\uD2C0Infra\\Model\\\uC154\uD2C0\uBC84\uC2A4\uBC30\uCC28.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uC154\uD2C0Infra\\Model\\\uC154\uD2C0\uBC84\uC2A4\uBC30\uCC28.cs",
+              "RelativeToolTip": "\uC154\uD2C0Infra\\Model\\\uC154\uD2C0\uBC84\uC2A4\uBC30\uCC28.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:54:37.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Search\uB3C4\uC11CQuery.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\Query\\Search\uB3C4\uC11CQuery.cs",
-              "RelativeDocumentMoniker": "\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\Query\\Search\uB3C4\uC11CQuery.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\Query\\Search\uB3C4\uC11CQuery.cs",
-              "RelativeToolTip": "\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\Query\\Search\uB3C4\uC11CQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:53:50.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create\uB3C4\uC11CCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\Command\\Create\uB3C4\uC11CCommand.cs",
-              "RelativeDocumentMoniker": "\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\Command\\Create\uB3C4\uC11CCommand.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\Command\\Create\uB3C4\uC11CCommand.cs",
-              "RelativeToolTip": "\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\Command\\Create\uB3C4\uC11CCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:53:20.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj",
-              "RelativeDocumentMoniker": "\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj",
-              "RelativeToolTip": "\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790\\\u4EC1\uB3C4\uC11C\uAD00\uB828\uC790.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-13T05:52:37.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create\uC778\uB825\uB9E4\uCE6D\uC2E0\uCCADCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\Handlr\\\uC0DD\uC0B0\\\uC0DD\uC0B0\uC790\\Command\\Create\uC778\uB825\uB9E4\uCE6D\uC2E0\uCCADCommandHandler.cs",
-              "RelativeDocumentMoniker": "MediationAPIGateWay\\Handlr\\\uC0DD\uC0B0\\\uC0DD\uC0B0\uC790\\Command\\Create\uC778\uB825\uB9E4\uCE6D\uC2E0\uCCADCommandHandler.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\Handlr\\\uC0DD\uC0B0\\\uC0DD\uC0B0\uC790\\Command\\Create\uC778\uB825\uB9E4\uCE6D\uC2E0\uCCADCommandHandler.cs",
-              "RelativeToolTip": "MediationAPIGateWay\\Handlr\\\uC0DD\uC0B0\\\uC0DD\uC0B0\uC790\\Command\\Create\uC778\uB825\uB9E4\uCE6D\uC2E0\uCCADCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:50:01.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "\uD310\uB9E4DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uD310\uB9E4Infra\\\uD310\uB9E4DbContext.cs",
-              "RelativeDocumentMoniker": "\uD310\uB9E4Infra\\\uD310\uB9E4DbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uD310\uB9E4Infra\\\uD310\uB9E4DbContext.cs",
-              "RelativeToolTip": "\uD310\uB9E4Infra\\\uD310\uB9E4DbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T04:14:58.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "\uD310\uB9E4\uC790.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uD310\uB9E4Infra\\\uD310\uB9E4\uC790.cs",
-              "RelativeDocumentMoniker": "\uD310\uB9E4Infra\\\uD310\uB9E4\uC790.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uD310\uB9E4Infra\\\uD310\uB9E4\uC790.cs",
-              "RelativeToolTip": "\uD310\uB9E4Infra\\\uD310\uB9E4\uC790.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T04:14:58.323Z",
+              "WhenOpened": "2024-09-20T05:16:59.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Model.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uB3C4\uC11CInfra\\Model.cs",
-              "RelativeDocumentMoniker": "\uB3C4\uC11CInfra\\Model.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uB3C4\uC11CInfra\\Model.cs",
-              "RelativeToolTip": "\uB3C4\uC11CInfra\\Model.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwDEAAAAuAAAA",
+              "Title": "\uC154\uD2C0DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uC154\uD2C0Infra\\\uC154\uD2C0DbContext.cs",
+              "RelativeDocumentMoniker": "\uC154\uD2C0Infra\\\uC154\uD2C0DbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\uC154\uD2C0Infra\\\uC154\uD2C0DbContext.cs",
+              "RelativeToolTip": "\uC154\uD2C0Infra\\\uC154\uD2C0DbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T04:14:11.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "\u4EC1\uC0DD\uC0B0\uC790",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1\uC0DD\uC0B0\uC790\\\u4EC1\uC0DD\uC0B0\uC790.csproj",
-              "RelativeDocumentMoniker": "\u4EC1\uC0DD\uC0B0\uC790\\\u4EC1\uC0DD\uC0B0\uC790.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1\uC0DD\uC0B0\uC790\\\u4EC1\uC0DD\uC0B0\uC790.csproj",
-              "RelativeToolTip": "\u4EC1\uC0DD\uC0B0\uC790\\\u4EC1\uC0DD\uC0B0\uC790.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-13T03:57:06.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MediationAPIGateWay",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay.csproj",
-              "RelativeDocumentMoniker": "MediationAPIGateWay\\MediationAPIGateWay.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay\\MediationAPIGateWay.csproj",
-              "RelativeToolTip": "MediationAPIGateWay\\MediationAPIGateWay.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-13T03:57:06.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "\u4EC1Infra",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1Infra\\\u4EC1Infra.csproj",
-              "RelativeDocumentMoniker": "\u4EC1Infra\\\u4EC1Infra.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MediationAPIGateWay\\MediationAPIGateWay\\\u4EC1Infra\\\u4EC1Infra.csproj",
-              "RelativeToolTip": "\u4EC1Infra\\\u4EC1Infra.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-13T03:57:04.701Z",
+              "WhenOpened": "2024-09-20T05:16:26.811Z",
               "EditorCaption": ""
             }
           ]

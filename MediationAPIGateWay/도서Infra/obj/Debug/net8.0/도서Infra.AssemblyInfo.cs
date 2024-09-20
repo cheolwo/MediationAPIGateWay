@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("도서Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d773d225e2458f0fc5738cec8c75ab22db21fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43dcc84ccbda13f026539ab5d55109f352ba0125")]
 [assembly: System.Reflection.AssemblyProductAttribute("도서Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("도서Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
